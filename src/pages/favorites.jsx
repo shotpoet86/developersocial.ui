@@ -5,10 +5,10 @@ const Favorites = () => {
     document.title = 'Favorites — Programmer Social';
   });
   return (
-    <div>
+    <React.Fragment>
       <h1>Programmer Social</h1>
       <p>These are my favorites</p>
-    </div>
+    </React.Fragment>
   );
 };
 export default Favorites;
